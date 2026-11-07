@@ -34,8 +34,9 @@ scala-cli run MoneyFlow.scala
   TOTAL: 66250.00 RUB
 ```
 
-> Exchange rates are hardcoded demo values — wire them to a live rates API
-> (e.g. the Central Bank of Russia feed) for production use.
+> Exchange rates are the official Central Bank of Russia rates as of
+> 07.11.2026 (cbr-xml-daily.ru). For production use, fetch them live from the
+> CBR JSON feed at startup.
 
 ## Tech stack
 
